@@ -1,0 +1,9 @@
+{
+    "conversion_factor" : 0.000079, 
+    "maximum_positioning_speed" : 1500, 
+    "maximum_acceleration" : 1500, 
+    "absolute_maximum_current_scale" : 100, 
+    "standby_current" : 8, 
+    "microstep_resolution" : 8, 
+    "reference_search_mode" : "SearchLeftStopSwitch"
+}

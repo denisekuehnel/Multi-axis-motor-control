@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="1">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_max_pos_speed">
+          <property name="text">
+           <string>Maximum Positioning Speed</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_conversion_factor">
+          <property name="text">
+           <string>Conversion Factor</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_standby_current">
+          <property name="text">
+           <string>Standby Current</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_max_acceleration">
+          <property name="text">
+           <string>Maximum Acceleration</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_abs_max_current_scale">
+          <property name="text">
+           <string>Absolute maximum current scale</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_reference_search_mode">
+          <property name="text">
+           <string>Reference Search Mode</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="comboBox_reference_search_mode">
+          <item>
+           <property name="text">
+            <string>SearchLeftStopSwitch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchRightStopSwitch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchRightStopSwitchBothSides</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchLeftStopSwitchBothSides</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchHomeSwitchNegativeDirection</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchHomeSwitchPositiveDirection</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchHomeSwitchPositiveDirection2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SearchHomeSwitchNegativeDirection2</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_conversion_factor"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEdit_max_pos_speed"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_max_acceleration"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEdit_abs_max_current_scale"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_standby_current"/>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDialogButtonBox" name="buttonBox">
+        <property name="standardButtons">
+         <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
