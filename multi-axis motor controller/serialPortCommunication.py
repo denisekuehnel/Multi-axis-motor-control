@@ -33,7 +33,7 @@ class serialPortCommunication():
 
     def sendCommand(self, command_num, type, motor_num, value):
         '''Sends command and value to respective functions to turn it into the correct syntax and executes the command. \n
-        Command syntax: [host address, command_number, type, motor_port, value, value, value, value, checksum]'''
+        Command : Bytearray syntax: [host address : int, command_number : int, type : int, motor_port : int, value : int, value : int, value : int, value : int, checksum : int]'''
         if type is None:
             type = 0
         command = [self.address, command_num, type, motor_num, 0,0,0,0,0]
