@@ -1,1 +1,15 @@
+First of all, thank you for considering to contribute to this project.
+
+
+
+Ways to contribute to the project include to implement more functions the TMCM-6110 board is capable of. 
+Important functions include the implementation of a stall guard. Further information about the board and its functionalities can be found in its documentation:
+
+https://www.trinamic.com/fileadmin/assets/Products/Modules_Documents/TMCM-6110_TMCL-firmware_manual.pdf
+
+It has to be noted that this project was implemented by a bachelor student. For this reason the code may be lacking in some parts. 
+Additionally, the project's state is that of an early version. Thus it can be expanded by the missing aspects that includes:
+tests
+bug handling (filing a bug report)
+code review handling
 
